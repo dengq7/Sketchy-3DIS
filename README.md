@@ -6,7 +6,7 @@ This is the official PyTorch implementation of **Sketchy-3DIS** (Sketchy Boundin
 Qian Deng, Le Hui, Jin Xie, Jian Yang
 
 <div align="center">
-  <img src="figs/framework.png"/>
+  <img src="figs/framework.JPG"/>
 </div>
 
 # Get Started
