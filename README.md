@@ -1,7 +1,7 @@
 # Sketchy-3DIS
 This is the official PyTorch implementation of **Sketchy-3DIS** (Sketchy Bounding-box Supervision for 3D Instance Segmentation (CVPR2025)).
 
-**Sketchy Bounding-box Supervision for 3D Instance Segmentation (CVPR2025)** [\[Paper\]](https://openaccess.thecvf.com/content/CVPR2024/papers/Lu_BSNet_Box-Supervised_Simulation-assisted_Mean_Teacher_for_3D_Instance_Segmentation_CVPR_2024_paper.pdf)
+**Sketchy Bounding-box Supervision for 3D Instance Segmentation (CVPR2025)** [\[Paper\]](https://arxiv.org/abs/2505.16399)
 
 Qian Deng, Le Hui, Jin Xie, Jian Yang
 
@@ -146,11 +146,10 @@ This repo is built upon [SPFormer](https://github.com/sunjiahao1999/SPFormer),[I
 If you find this project useful, please consider citing:
 
 ```
-@inproceedings{lu2024bsnet,
-  title={BSNet: Box-Supervised Simulation-assisted Mean Teacher for 3D Instance Segmentation},
-  author={Lu, Jiahao and Deng, Jiacheng and Zhang, Tianzhu},
+@inproceedings{2025,
+  title={Sketchy Bounding-box Supervision for 3D Instance Segmentation},
+  author={Qian Deng, Le Hui, Jin Xie, Jian Yang},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={20374--20384},
-  year={2024}
+  year={2025}
 }
 ```
