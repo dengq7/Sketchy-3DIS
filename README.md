@@ -148,7 +148,7 @@ If you find this project useful, please consider citing:
 ```
 @inproceedings{deng2025sketchy,
   title={Sketchy Bounding-box Supervision for 3D Instance Segmentation},
-  author={Qian Deng, Le Hui, Jin Xie, Jian Yang},
+  author={Deng, Qian and Hui, Le and Xie, Jin and Yang, Jian},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2025}
 }
