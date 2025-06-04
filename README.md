@@ -1,5 +1,5 @@
 # Sketchy-3DIS
-This is the official PyTorch implementation of **Sketchy-3DIS** (Sketchy Bounding-box Supervision for 3D Instance Segmentation (CVPR2025)).
+This is the official PyTorch implementation of **Sketchy-3DIS**.
 
 **Sketchy Bounding-box Supervision for 3D Instance Segmentation (CVPR2025)** [\[Paper\]](https://arxiv.org/abs/2505.16399)
 
