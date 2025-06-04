@@ -146,7 +146,7 @@ This repo is built upon [SPFormer](https://github.com/sunjiahao1999/SPFormer),[I
 If you find this project useful, please consider citing:
 
 ```
-@inproceedings{2025,
+@inproceedings{deng2025sketchy,
   title={Sketchy Bounding-box Supervision for 3D Instance Segmentation},
   author={Qian Deng, Le Hui, Jin Xie, Jian Yang},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
