@@ -68,14 +68,14 @@ MMImp
 Split and preprocess data
 
 ```
-cd SPFormer/data/scannetv2
+cd Sketchy3DIS/SPFormer/data/scannetv2
 bash prepare_data.sh
 ```
 
 The script data into train/val/test folder and preprocess the data. After running the script the scannet dataset structure should look like below.
 
 ```
-Sketchy3DIS
+SPFormer
 ├── data
 ├── dataset
 │   ├── scannetv2
@@ -94,7 +94,7 @@ Download the [S3DIS](http://buildingparser.stanford.edu/dataset.html) dataset (`
 Download the preprocessed `superpoints` from Box2Mask: [superpoints](https://datasets.d2.mpi-inf.mpg.de/box2mask/segment_labels.tar.gz) and organize as below.
 
 ```
-Sketchy3DIS
+ISBNet
 ├── dataset
 │   ├── s3dis
 │   │   ├── Stanford3dDataset_v1.2_Aligned_Version
@@ -120,7 +120,7 @@ Sketchy3DIS
 Preprocess data
 
 ```
-cd ISBNet/dataset/s3dis
+cd Sketchy3DIS/ISBNet/dataset/s3dis
 bash prepare_data.sh
 ```
 
