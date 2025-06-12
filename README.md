@@ -146,10 +146,12 @@ This repo is built upon [SPFormer](https://github.com/sunjiahao1999/SPFormer),[I
 If you find this project useful, please consider citing:
 
 ```
-@inproceedings{deng2025sketchy,
-  title={Sketchy Bounding-box Supervision for 3D Instance Segmentation},
-  author={Deng, Qian and Hui, Le and Xie, Jin and Yang, Jian},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2025}
+@InProceedings{Deng_2025_CVPR,
+    author    = {Deng, Qian and Hui, Le and Xie, Jin and Yang, Jian},
+    title     = {Sketchy Bounding-box Supervision for 3D Instance Segmentation},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {8879-8888}
 }
 ```
