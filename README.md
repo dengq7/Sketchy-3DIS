@@ -85,13 +85,14 @@ SPFormer
 │   │   ├── val
 │   │   ├── test
 │   │   ├── superpoints
+│   │   ├── normals
 ```
 
 ## S3DIS dataset
 
 Download the [S3DIS](http://buildingparser.stanford.edu/dataset.html) dataset (`v1.2_Aligned_Version`). 
 
-Download the preprocessed `superpoints` from Box2Mask: [superpoints](https://datasets.d2.mpi-inf.mpg.de/box2mask/segment_labels.tar.gz) and organize as below.
+Download the preprocessed [superpoints](https://datasets.d2.mpi-inf.mpg.de/box2mask/segment_labels.tar.gz) and [normals](https://datasets.d2.mpi-inf.mpg.de/box2mask/normals.tar.gz) from Box2Mask, and organize as below.
 
 ```
 ISBNet
@@ -114,6 +115,7 @@ ISBNet
 │   │   │   ├── Area_5
 │   │   │   ├── Area_6
 │   │   ├── learned_superpoin_graph_segmentations
+│   │   ├── normals
 ```
 
 
