@@ -6,3 +6,4 @@ python3 prepare_data_inst.py --data_split train
 python3 prepare_data_inst.py --data_split val
 python3 prepare_data_inst.py --data_split test
 python3 prepare_superpoint.py
+python3 prepare_normals.py
