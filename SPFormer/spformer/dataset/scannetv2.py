@@ -67,17 +67,23 @@ class ScanNetDataset(Dataset):
         return filenames
 
     def load(self, filename):
+        scan_id = osp.basename(filename).replace(self.suffix, "")
+        spp_filename = osp.join(self.data_root, "superpoints", scan_id + ".pth")
+        superpoint = torch.load(spp_filename)
+
         if self.with_normal:
-            normal = torch.load(filename.replace(self.suffix, "_normals.pth"))
+            normal = torch.load(self.data_root, "normals", scan_id + ".pth")
         else:
             normal = None
+
         if self.with_label:
-            return torch.load(filename) + (normal, )
+            coords, colors, dummy_sem_label, dummy_inst_label = torch.load(filename)
         else:
+            
             xyz, rgb, superpoint = torch.load(filename)
             dummy_sem_label = np.zeros(xyz.shape[0], dtype=np.float32)
             dummy_inst_label = np.zeros(xyz.shape[0], dtype=np.float32)
-            return xyz, rgb, superpoint, dummy_sem_label, dummy_inst_label, normal
+        return xyz, rgb, superpoint, dummy_sem_label, dummy_inst_label, normal
 
     def __len__(self):
         return len(self.filenames)
