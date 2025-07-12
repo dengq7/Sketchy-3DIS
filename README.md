@@ -136,6 +136,7 @@ ISBNet
 │   │   ├── learned_superpoin_graph_segmentations
 │   │   ├── preprocess
 │   │   ├── superpoints
+│   │   ├── normals
 ```
 
 ### Training
